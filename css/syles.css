@@ -553,3 +553,12 @@ ul {
 ..modal-form-input comment:focus {
   border-color: #4d5ae5;
 }
+
+.modal-form-label {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 117%;
+  letter-spacing: 0.04em;
+  color: var(--light-slate);
+}
