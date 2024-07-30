@@ -498,7 +498,7 @@ ul {
   line-height: 150%;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(#2e2f42);
+  color: #2e2f42;
 }
 
 .modal-form-container {
@@ -510,4 +510,26 @@ ul {
 ..modal-form-input comment {
   width: 360px;
   height: 138px;
+}
+
+.modal-window {
+  top: 0;
+  position: fixed;
+  left: 0;
+  height: 100%;
+  background-color: rgba(46, 47, 66, 0.4);
+  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.form-submit-button .form-end-button {
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+  background: #4d5ae5;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  text-align: center;
+  color: #fff;
 }
